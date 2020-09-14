@@ -1,1 +1,1 @@
-# Basic template for simple web pages
+# Pass the Message!
