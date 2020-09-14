@@ -8,6 +8,7 @@ body {
     display: grid;
     place-items: center;
     font-family: sans-serif;
+    background-color: hsl(200, 50%, 90%);
 }
 
 #container {
@@ -15,14 +16,24 @@ body {
 }
 
 input, p {
-    font-size: 24px;
+    font-size: 22px;
+    font-family: monospace;
 }
 
 p {
+    background-color: hsl(200, 10%, 95%);
+    padding: 3px 10px;
+
+    font-family: monospace;
     min-height: 28px;
+    max-width: fit-content;
+    border: solid 2px hsl(200, 50%, 15%);
+    border-radius: 16px 16px 0px 16px;
 }
 
 input {
+    border: solid 2px hsl(200, 50%, 15%);
+
     border-radius: 3px;
-    padding: 10px;
+    padding: 14px;
 }
