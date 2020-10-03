@@ -7,8 +7,6 @@ const outputElement = document.getElementById('message-output')
 inputElement.addEventListener("keyup", changeHandler)
 
 function changeHandler(event) {
-    console.log("vi kommer hit")
-
     // 1. Här plockar vi ut texten från eventet
     const text = event.target.value
 
@@ -26,7 +24,7 @@ function statistics(str) {
 }
 
 function doubleSwedish(str) {
-    // Words blir en array av strängar. Varje element är ett ord.
+    // words blir en array av strängar. Varje element är ett ord.
     const words = str.split(' ')
 
     // duplicateWords är en ny array av strängar, där varje ord är output av funktionen duplicate
